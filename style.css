@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background: 
+      radial-gradient(black 3px, transparent 4px),
+      radial-gradient(black 3px, transparent 4px),
+      linear-gradient(#fff 4px, transparent 0),
+      linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+      linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* --HEADER-- */
+
+.header{
+    background-color: rgb(30, 39, 46);
+    color: white;
+    padding: 20px;
+}
+
+/* --MAIN-- */
+
+p{
+    text-align: justify;
+}
+
+.main{
+    background-color: blue;
+    padding: 10px;
+}
+
+    .main__article{
+        background-color: violet;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+        .article__section{
+        background-color: yellow;
+        margin-bottom: 10px;
+        }
+
+    .main__aside{
+        background-color: tomato;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+        
+    }
+        .aside__div{
+            background-color: aqua;
+            margin-bottom: 10px;
+        }
+        img{
+            width: 100%;
+        }
+
+
+    .main__span{
+        background-color: skyblue;
+        padding: 10px;
+        
+    }
+        .span__div{
+            height: 200px;
+            background-color: rgb(45, 52, 54);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            transition: all 0.5s ease;
+        }
+
+        .span__div:hover{
+            cursor: pointer;
+            color: black;
+            background-color: white;            
+        }
+
+/* --FOOTER-- */       
+
+.footer{
+    background-color: rgb(125,220,31);
+    padding: 20px;
+}
